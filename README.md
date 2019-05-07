@@ -33,14 +33,6 @@
 ----
 > GET http://localhost:3000/tasks
 
-It should return
+It should return:
 
->```
-{
-"id": 7,
-"title": "Estudar Ruby On Rails",
-"done": true,
-"created_at": "2019-05-07T23:15:59.334Z",
-"updated_at": "2019-05-07T23:15:59.334Z"
-}
-```
+>```{"id": 7,"title": "Estudar Ruby On Rails","done": true,"created_at": "2019-05-07T23:15:59.334Z","updated_at": "2019-05-07T23:15:59.334Z"}```
